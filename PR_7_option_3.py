@@ -3,7 +3,7 @@ dlina = int(input())
 D = []
 for n in range(dlina):
         D.append(n)
-res = sum([int(i) for i in range(len(D) + 1) if i % 2 != 0])
+res = sum([int(i) for i in range(len(D)) if i % 2 != 0])
 print(res)
 
 #2
